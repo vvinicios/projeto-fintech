@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Helvetica;
+    border: none;
+}
+
+body {
+     background: #9b26b6;
+}
+
+.cabecalho {
+    background: #66a1aa;
+    padding: 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Helvetica;
+    
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#img_voltar{
+    width: 50px;
+}
+
+#img_voltar:hover {
+    width: 60px;
+    transition: .8s;
+}
+
+#img_logo {
+    border-radius: 20px;
+    width: 75px;
+}
+
+#img_chat{
+    width: 45px;
+}
+
+#img_chat:hover {
+    width: 55px;
+    transition: .8s;
+}
+
+
+header h1 {
+    display: inline;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+a, label {
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+a:hover {
+    color: #08558b;
+
+}
+
+.login {
+    background-color: #FFFFFF;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 20px;
+    text-align: center;
+}
+
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+input {
+    border-bottom: 2px solid #35003D;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+
+}
+
+input:focus {
+    border-bottom: 2px solid #08558b;
+}
+
+#esqueceu-senha {
+    text-align: right;
+    display: block;
+}
+
+input[type="submit"] {
+    text-align: center;
+    text-decoration: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    background-color: #1E0123;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #68007a;
+    transition: .5s;
+}
+
+.social, .registro {
+    margin-bottom: 20px;
+
+}
+
+footer {
+    background: #66a1aa;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#rodape {
+    color: #FFFFFF;
+    font-size: 15px;
+}
